@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Do you exercise regularly?",
+      "options": ["Yes", "No", "Sometimes"]
+    },
+    {
+      "id": 2,
+      "text": "How many hours do you sleep per night?",
+      "options": ["Less than 6 hours", "6-8 hours", "More than 8 hours"]
+    },
+    {
+      "id": 3,
+      "text": "Do you eat fruits and vegetables daily?",
+      "options": ["Yes", "No", "Rarely"]
+    },
+    {
+      "id": 4,
+      "text": "Do you smoke?",
+      "options": ["Yes", "No", "I used to smoke"]
+    },
+    {
+      "id": 5,
+      "text": "Do you consume alcoholic beverages?",
+      "options": ["Yes, frequently", "Occasionally", "No"]
+    },
+    {
+      "id": 6,
+      "text": "Do you often feel stressed?",
+      "options": ["Yes", "No", "Sometimes"]
+    },
+    {
+      "id": 7,
+      "text": "Do you have regular medical check-ups?",
+      "options": ["Yes, annually", "Rarely", "No"]
+    },
+    {
+      "id": 8,
+      "text": "Do you have any chronic medical condition?",
+      "options": ["Yes", "No", "I don't know"]
+    },
+    {
+      "id": 9,
+      "text": "Do you take any medication regularly?",
+      "options": ["Yes", "No", "Occasionally"]
+    },
+    {
+      "id": 10,
+      "text": "Do you stay hydrated throughout the day?",
+      "options": ["Yes", "No", "Sometimes"]
+    }
+  ]
+} 

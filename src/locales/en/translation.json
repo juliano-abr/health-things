@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "HealThings",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign In"
+  },
+  "photoUpload": {
+    "title": "Photo Upload",
+    "choosePhoto": "Choose Photo",
+    "next": "Next",
+    "welcome": "Welcome!",
+    "description": "Please upload a photo to be evaluated.",
+    "error": {
+      "tooLarge": "Image is still too large after compression. Please try a smaller image.",
+      "processing": "Failed to process image"
+    }
+  },
+  "questions": {
+    "title": "Health questions",
+    "previous": "Previous",
+    "next": "Next",
+    "finish": "Finish",
+    "question": "Question {{number}} of {{total}}",
+    "error": "Failed to load questions"
+  },
+  "success": {
+    "title": "Questionnaire Completed",
+    "message": "Thank you for completing the questionnaire!",
+    "startNew": "Start New Questionnaire",
+    "uploadedPhoto": "Uploaded Photo",
+    "answers": "Your Answers"
+  }
+} 
