@@ -1,4 +1,5 @@
-import { Alert, Box } from '@mui/material';
+import { Alert } from '@mui/material';
+import { ErrorComponentContainer, ErrorComponentContent } from './styles';
 
 interface ErrorComponentProps {
   error: string;
@@ -6,11 +7,11 @@ interface ErrorComponentProps {
 
 const ErrorComponent = ({ error }: ErrorComponentProps) => {
   return (
-    <Box sx={{ width: '100%', maxWidth: 500 }}>
-      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '300px' }}>
+    <ErrorComponentContainer>
+      <ErrorComponentContent>
         <Alert severity="error">{error}</Alert>
-      </Box>
-    </Box>
+      </ErrorComponentContent>
+    </ErrorComponentContainer>
   );
 };
 
