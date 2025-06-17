@@ -4,6 +4,7 @@ import type { ButtonProps } from "@mui/material";
 export const DefaultContainer = styled(Container)(({ theme }) => ({
     width: '600px',
     [theme.breakpoints.down('sm')]: {
+        minWidth: '300px',
         width: '100%',
     },
     display: 'flex',
