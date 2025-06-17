@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
+# HealThings
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for health and wellness management, built with TypeScript and Material-UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern React with TypeScript
+- Material-UI for beautiful, responsive design
+- Internationalization support (i18n)
+- State management with Zustand
+- Routing with React Router
+- ESLint and Prettier for code quality
+- Vite for fast development and building
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Node.js (version specified in .nvmrc)
+- Yarn package manager
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+cd health-things
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install dependencies:
+```bash
+yarn install
+```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🏃‍♂️ Development
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+To start the development server:
+
+```bash
+yarn dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## 📝 Code Quality
+
+- Lint your code:
+```bash
+yarn lint
+```
+
+- Format your code:
+```bash
+yarn format
+```
+
+## 🛠️ Tech Stack
+
+- React 19
+- TypeScript
+- Material-UI
+- Zustand (State Management)
+- React Router
+- i18next (Internationalization)
+- Vite
+- ESLint + Prettier
+
+## 📦 Project Structure
+
+```
+health-things/
+├── src/              # Source files
+├── public/           # Static files
+├── .vscode/         # VS Code configuration
+├── node_modules/    # Dependencies
+└── [config files]   # Various configuration files
 ```
